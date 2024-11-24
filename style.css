@@ -19,7 +19,7 @@ body {
 }
 
 .catchy-line h1, .catchy-line p {
-    color: black; /* Make both heading and paragraph text black */
+    color: white; /* Make both heading and paragraph text black */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Optional for shadow effect */
