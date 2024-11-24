@@ -1,0 +1,128 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background for the catchy line section */
+.catchy-line-background {
+    background-image: url('https://images.unsplash.com/photo-1606509779095-de8fd5187049?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0-3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhdCUyMGN1ZGRsaW5nfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.catchy-line h1, .catchy-line p {
+    color: black; /* Make both heading and paragraph text black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Optional for shadow effect */
+}
+
+.catchy-line h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.catchy-line p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Main page background */
+.background {
+    background-image: url('https://media.istockphoto.com/id/1419895944/photo/a-red-cat-with-green-eyes-peeks-through-the-open-door.webp?a=1&b=1&s=612x612&w=0&k=20&c=qTedWHcnkyggfz535_jw3S_9-0ESbYGHmKVOpl0GPJM=');
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Section styling */
+.section {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.section p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.8;
+    color: black;
+}
+
+/* Toys and Entertainment Section Background */
+.toys-background {
+    background-image: url('https://media.istockphoto.com/id/1310331782/photo/cute-a-striped-kitten-looks-at-a-passing-butterfly-on-a-sunny-day-in-a-summer-meadow.webp?a=1&b=1&s=612x612&w=0&k=20&c=VTtIfrV83R59hnRPiWw8YLhRlPmXSPNFTjmII0bfWbo=');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* Vital Things Section Background */
+.vital-background {
+    background-image: url('https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0-3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhdCUyMHJ1bm5pbmclMjBpbiUyMGZpZWxkfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* Health Section Background */
+.health-background {
+    background-image: url('https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhdCUyMGN1ZGRsaW5nfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* Copyright section */
+.copyright {
+    background-color: rgba(139, 120, 102, 0.7); /* Light brown for copyright box */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Wall text effect */
+.wall-text {
+    background-color: rgba(255, 255, 255, 0.8); /* Light white for wall effect */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    line-height: 1.8;
+    color: black;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Spacer before sections */
+.spacer {
+    margin-top: 50px;
+}
