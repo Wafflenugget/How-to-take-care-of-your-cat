@@ -11,6 +11,30 @@
             padding: 0;
         }
 
+        /* Background for the headline section */
+        .headline-background {
+            background-image: url('https://images.unsplash.com/photo-1542736705-53f0131d1e98?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNhdCUyMGN1ZGRsaW5nfGVufDB8fDB8fHww'); /* Background image for headline */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .headline h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .headline p {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
         /* Background for the entire page */
         .background {
             background-image: url('https://media.istockphoto.com/id/1419895944/photo/a-red-cat-with-green-eyes-peeks-through-the-open-door.webp?a=1&b=1&s=612x612&w=0&k=20&c=qTedWHcnkyggfz535_jw3S_9-0ESbYGHmKVOpl0GPJM='); /* Cat peeking out background */
@@ -66,18 +90,47 @@
         .copyright {
             background-color: rgba(139, 120, 102, 0.7); /* Light brown for copyright box */
             color: white;
-            padding: 20px;
+            padding: 30px;
             text-align: center;
-            font-size: 14px;
+            font-size: 18px;
+            font-weight: bold;
         }
 
+        /* Wall text effect */
+        .wall-text {
+            background-color: rgba(255, 255, 255, 0.8); /* Light white for wall effect */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            line-height: 1.8;
+            color: black;
+            text-align: justify;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* For adding margin before sections */
+        .spacer {
+            margin-top: 50px;
+        }
+        
     </style>
 </head>
 <body>
 
+    <!-- Headline Section -->
+    <div class="headline-background">
+        <div class="headline">
+            <h1>Keep Your Dog Healthy and Happy</h1>
+            <p>Learn the best ways to take care of your dog’s health, toys, and vital needs for a long, happy life!</p>
+        </div>
+    </div>
+
     <!-- Health Section -->
     <div class="background">
-        <div class="section">
+        <div class="section wall-text">
             <h2>Health</h2>
             <p>To keep your dog healthy, provide regular vet check-ups for vaccinations, dental care, and overall health monitoring. Ensure your dog is eating a balanced diet with high-quality dog food suited to their age and health conditions. Make sure they get plenty of exercise to maintain a healthy weight.</p>
             <p>Watch out for any unusual behavior such as changes in eating habits, lethargy, or excessive panting, and consult a vet immediately if you notice anything concerning. Regular walks and playtime are great for your dog’s physical and mental health.</p>
