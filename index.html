@@ -3,37 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Take Care of Cats</title>
+    <title>Take Care of Dogs</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://images.unsplash.com/photo-1676570154789-676d6516ddb9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3V0ZSUyMGtpdHRlbnxlbnwwfHwwfHx8MA%3D%3D');
+        }
+
+        /* Background for the entire page */
+        .background {
+            background-image: url('https://media.istockphoto.com/id/1419895944/photo/a-red-cat-with-green-eyes-peeks-through-the-open-door.webp?a=1&b=1&s=612x612&w=0&k=20&c=qTedWHcnkyggfz535_jw3S_9-0ESbYGHmKVOpl0GPJM='); /* Cat peeking out background */
             background-size: cover;
-            background-position: center;
+            background-position: left center;
             background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .section {
             margin: 50px auto;
             max-width: 800px;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.7);
+            background: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
+            text-align: center;
         }
 
         .section h2 {
-            text-align: center;
             font-size: 36px;
             margin-bottom: 20px;
-            color: white;
+            color: black;
         }
 
         .section p {
             font-size: 18px;
             text-align: justify;
             line-height: 1.8;
+            color: black;
+        }
+
+        /* Background for Toys and Entertainment Section */
+        .toys-background {
+            background-image: url('https://media.istockphoto.com/id/1310331782/photo/cute-a-striped-kitten-looks-at-a-passing-butterfly-on-a-sunny-day-in-a-summer-meadow.webp?a=1&b=1&s=612x612&w=0&k=20&c=VTtIfrV83R59hnRPiWw8YLhRlPmXSPNFTjmII0bfWbo='); /* Kitten with leaf background */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+        }
+
+        /* Background for Vital Things Section */
+        .vital-background {
+            background-image: url('https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhdCUyMHJ1bm5pbmclMjBpbiUyMGZpZWxkfGVufDB8fDB8fHww'); /* Cat on the left background */
+            background-size: cover;
+            background-position: left center;
+            background-attachment: fixed;
+            height: 100vh;
         }
 
         .copyright {
@@ -43,34 +70,41 @@
             text-align: center;
             font-size: 14px;
         }
+
     </style>
 </head>
 <body>
 
     <!-- Health Section -->
-    <div class="section">
-        <h2>Health</h2>
-        <p>To keep your cat healthy, provide regular vet check-ups for vaccinations, dental care, and overall health monitoring. Ensure your cat is eating a balanced diet with high-quality cat food suited to their age and health conditions. Don't forget to maintain their litter box hygiene, as cleanliness helps prevent urinary or digestive issues.</p>
-        <p>Watch out for any unusual behavior such as changes in eating habits, lethargy, or excessive grooming, and consult a vet immediately if you notice anything concerning. Regular exercise through play helps maintain their physical and mental well-being.</p>
+    <div class="background">
+        <div class="section">
+            <h2>Health</h2>
+            <p>To keep your dog healthy, provide regular vet check-ups for vaccinations, dental care, and overall health monitoring. Ensure your dog is eating a balanced diet with high-quality dog food suited to their age and health conditions. Make sure they get plenty of exercise to maintain a healthy weight.</p>
+            <p>Watch out for any unusual behavior such as changes in eating habits, lethargy, or excessive panting, and consult a vet immediately if you notice anything concerning. Regular walks and playtime are great for your dog’s physical and mental health.</p>
+        </div>
     </div>
 
     <!-- Toys and Entertainment Section -->
-    <div class="section">
-        <h2>Toys and Entertainment</h2>
-        <p>Cats are natural hunters, and toys that mimic prey, such as feather wands or laser pointers, can provide great entertainment. Rotating their toys keeps them engaged and prevents boredom. Consider investing in puzzle toys or interactive feeders to stimulate their intelligence.</p>
-        <p>Scratching posts are essential for a cat’s well-being as they help maintain their claws and prevent furniture damage. Cat trees or shelves can provide climbing opportunities, satisfying their instinct to explore vertical spaces.</p>
+    <div class="toys-background">
+        <div class="section">
+            <h2>Toys and Entertainment</h2>
+            <p>Dogs are playful animals that need regular entertainment. Providing a variety of toys that stimulate their minds and keep them active is important. Interactive toys, puzzle feeders, and chew toys are great for mental stimulation and preventing boredom.</p>
+            <p>Always rotate their toys to keep things interesting. Balls, ropes, and frisbees are excellent for active dogs that enjoy fetching. You can also try using puzzle games to challenge your dog’s problem-solving skills.</p>
+        </div>
     </div>
 
     <!-- Vital Things Section -->
-    <div class="section">
-        <h2>Vital Things for Happiness</h2>
-        <p>A happy cat is one that feels safe and loved. Provide a cozy bed or hiding spots where they can relax undisturbed. Ensure they always have access to fresh water, preferably in a fountain, as cats often prefer running water.</p>
-        <p>Spending quality time with your cat strengthens your bond and reduces stress for both of you. Grooming your cat regularly not only keeps their coat shiny and mat-free but also shows your care for them.</p>
+    <div class="vital-background">
+        <div class="section">
+            <h2>Vital Things for Happiness</h2>
+            <p>A happy dog is one that feels loved and safe. Provide them with a cozy bed, lots of love, and daily exercise. Give them time to rest and relax after playtime. Make sure they have access to fresh water at all times and a nutritious diet that supports their health.</p>
+            <p>Spending quality time with your dog strengthens your bond and keeps them emotionally happy. Regular grooming is important for their hygiene and well-being. Dogs love cuddles, and they thrive in environments where they feel secure and part of the family.</p>
+        </div>
     </div>
 
     <!-- Copyright at the End -->
     <div class="copyright">
-        &copy; 2024 Taking Care of a Cat - All Rights Reserved
+        &copy; 2024 Taking Care of Dogs - All Rights Reserved
     </div>
 
 </body>
