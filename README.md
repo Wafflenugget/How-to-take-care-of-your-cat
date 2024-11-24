@@ -1,1 +1,0 @@
-# How-to-take-care-of-your-cat

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Take Care of Cats</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.0/scrollreveal.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            padding: 50px;
+            margin: 50px 0;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+        }
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- What to Do When You Get a Cat -->
+    <section id="what-to-do">
+        <div class="content">
+            <h2>What to Do When You Get a Cat</h2>
+            <p>Prepare your home, schedule a vet check-up, and start bonding with your new furry friend.</p>
+        </div>
+    </section>
+
+    <!-- Health -->
+    <section id="health">
+        <div class="content">
+            <h2>Health</h2>
+            <p>Regular vet visits, vaccinations, and signs of illness to look out for in your cat.</p>
+        </div>
+    </section>
+
+    <!-- Toys & Entertainment -->
+    <section id="toys">
+        <div class="content">
+            <h2>Toys & Entertainment</h2>
+            <p>Interactive toys, scratching posts, and climbing trees are great ways to keep your cat happy!</p>
+        </div>
+    </section>
+
+    <!-- Vital Things for Happiness -->
+    <section id="vital-things">
+        <div class="content">
+            <h2>Vital Things for Happiness</h2>
+            <p>Comfortable spaces, fresh water, balanced diet, and socialization are key to your cat's well-being.</p>
+        </div>
+    </section>
+
+    <!-- Smooth Scroll JS -->
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('section', {
+            duration: 1000,
+            origin: 'bottom',
+            distance: '50px',
+            delay: 200
+        });
+    </script>
+
+</body>
+</html>
